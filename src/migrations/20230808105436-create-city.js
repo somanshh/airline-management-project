@@ -31,3 +31,4 @@ module.exports = {
 // most important command is npx sequelize db:migrate ( we can update all the database using this cmd even while cloning from github_)
 
 // wtf is going on
+// don't know mann!
