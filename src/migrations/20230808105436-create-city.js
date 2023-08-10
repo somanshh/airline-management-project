@@ -7,11 +7,12 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER 
       },
       name: {
         type: Sequelize.STRING ,
-	allowNull: false
+	allowNull: false,
+	unique: true
       },
       createdAt: {
         allowNull: false,
